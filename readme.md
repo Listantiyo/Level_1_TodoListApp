@@ -14,18 +14,18 @@ Aplikasi Todo List ini adalah API sederhana yang memungkinkan pengguna untuk mel
 - **Body-parser**
 
 ## Struktur Folder dan File
-todo-app/ 
-├── config/ 
-│ └── connectDB.js 
-├── controllers/ 
-│ └── todoController.js 
-├── routes/ 
-│ └── todoRoutes.js 
-├── models/ 
-│ └── todoModel.js 
-├── utils/ 
-│ └── validator.js 
-├── app.js 
+todo-app/ <br/>
+├── config/ <br/>
+│ └── connectDB.js <br/> 
+├── controllers/ <br/>
+│ └── todoController.js <br/> 
+├── routes/ <br/>
+│ └── todoRoutes.js <br/> 
+├── models/ <br/>
+│ └── todoModel.js <br/> 
+├── utils/ <br/>
+│ └── validator.js <br/> 
+├── app.js <br/>
 └── package.json
 
 
