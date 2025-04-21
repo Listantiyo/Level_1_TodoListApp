@@ -12,10 +12,11 @@ app.use(BodyParser.urlencoded({extends:true}));
 app.get('/', (req, res) => {
     res.send('Hello World!');
 })
-app.get('api/todos', todoController.getAllTodos);
-app.post('api/todos', todoController.createTodo);
-app.put('api/todos/:id', todoController.updateTodo);
-app.delete('api/todos/:id', todoController.deleteTodo);
+app.get('/api/todos', todoController.getAllTodos);
+app.get('/api/todos/:id', todoController.getTodoById);
+app.post('/api/todos', todoController.createTodo);
+app.put('/api/todos/:id', todoController.updateTodo);
+app.delete('/api/todos/:id', todoController.deleteTodo);
 
 app.listen(port, () => {
     console.info(`Server is running on port ${port}`);
